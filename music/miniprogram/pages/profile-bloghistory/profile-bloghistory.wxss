@@ -1,0 +1,8 @@
+page {
+  background-color: #f6f6f6;
+}
+
+.blog-panel {
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+}

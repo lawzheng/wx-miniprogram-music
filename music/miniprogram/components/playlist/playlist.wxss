@@ -1,0 +1,35 @@
+.playlist-container {
+  width: 220rpx;
+  position: relative;
+  padding-bottom: 20rpx;
+}
+
+.playlist-img {
+  width: 100%;
+  height: 220rpx;
+  border-radius: 6rpx;
+}
+
+.playlist-count {
+  font-size: 24rpx;
+  color: #fff;
+  text-shadow: 1px 0 (0, 0, 0, 0.5);
+  position: absolute;
+  right: 10rpx;
+  top: 4rpx;
+  padding-left: 26rpx;
+  background-size: 20rpx 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTc5NTk1NTM3Njc3IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDExMzggMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjIxNTQiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjIyLjI2NTYyNSIgaGVpZ2h0PSIyMDAiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTExMTMuMTY1IDYxOS42OTd2MzUzLjQ1NWMwIDMwLjA0NC0yNS41MjkgNTQuMzk5LTU3LjAzMSA1NC4zOTloLTE3MS4wOTJjLTMxLjUwMiAwLTU3LjA2Ny0yNC4zNTUtNTcuMDY3LTU0LjM5OXYtMzUzLjQ1NWMwLTMwLjA0NCAyNS41NjUtNTQuMzk5IDU3LjA2Ny01NC4zOTloMTU1LjA5MmMtMjAuMTYtMjM4Ljk2Ny0yMTguMzQ1LTQyNi42MjgtNDYwLjI2My00MjYuNjI4LTI0MS44ODIgMC00NDAuMDY3IDE4Ny42Ni00NjAuMjYzIDQyNi42MjhoMTUzLjkxOWMzMS4zNTkgMCA1Ni43ODIgMjQuMzU1IDU2Ljc4MiA1NC4zOTl2MzUzLjQ1NWMwIDMwLjA0NC0yNS40MjIgNTQuMzk5LTU2Ljc4MiA1NC4zOTloLTE3MC40NTJjLTMxLjM1OSAwLTU2LjgxNy0yNC4zNTUtNTYuODE3LTU0LjM5OXYtMzUzLjQ1NWMwLTI5LjkzNyAyNS4zMTUtNTQuMjIyIDU2LjU2OS01NC4zNjRsLTU2LjYwNCA3MS4xMWMwLjM5MS0zMjEuMDk5IDI0OS4zODQtNTY4Ljc3OCA1MzMuNTA3LTU2OC44ODRoMC4zOTFjMjg0LjEyMyAwLjEwNyA1MzMuMTUyIDI0Ny4xOCA1MzIuNzYxIDUzMy4zMjlsLTU2LjQ5OC0zNS41NTZjMzEuMzk1IDAuMTQyIDU2Ljc4MiAyNC40MjcgNTYuNzgyIDU0LjM2NHpNMTE3LjMzMyA5NTYuNDQxaDE0Mi4yMjF2LTMxOS45OThoLTE0Mi4yMjF2MzE5Ljk5OHpNMTA0MS43NyA2MzYuNDQ0aC0xNDIuMjIxdjMxOS45OThoMTQyLjIyMXYtMzE5Ljk5OHoiIHAtaWQ9IjIxNTUiIGZpbGw9IiNmZmZmZmYiPjwvcGF0aD48L3N2Zz4=);
+}
+
+.playlist-name {
+  font-size: 26rpx;
+  line-height: 1.2;
+  padding: 2px 0 0 6px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
